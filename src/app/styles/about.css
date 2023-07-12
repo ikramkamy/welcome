@@ -1,0 +1,9 @@
+.section_about_one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.section_about_two{
+    width: 100%;
+}

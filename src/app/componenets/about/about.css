@@ -1,0 +1,26 @@
+.wrap_about{
+    width: 100%;
+}
+.center_flex{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.center_flex_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+.icon_drop{
+    cursor: pointer;
+}
+
+.section_about_one{
+    width: 95%;
+    justify-content: space-between;
+}
+.mar-dropdown{
+    margin: 4%;
+ 
+}

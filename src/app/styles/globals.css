@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../../../public/fonts/droid-robot-font/DroidRobotRegular-DBWx.ttf);
+  }
+  @font-face {
+    font-family: mysecondFont;
+    src: url(../../../public/fonts/grishenko-nbp-font/GrishenkoNbpRegular-eqPn.ttf);
+  } 
+  @font-face {
+    font-family: mythirdFont;
+    src: url(../../../public/fonts/gtek-nova-font/GtekNova-v08Z.ttf);
+  }  
+  @font-face {
+    font-family: myfourthFont;
+    src: url(../../../public/fonts/robotic-cyborg-font/misc/Robotic\ Cyborg-c0fa.woff);
+  }  
+  @font-face {
+    font-family: myfifthFont;
+    src: url(../../../public/fonts/Varela_Round/VarelaRound-Regular.ttf);
+  } 
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+.page_l_wrap{
+    background-image: url('https://d29jy8ovkd5kcx.cloudfront.net/wp-content/uploads/2021/11/29093739/shutterstock_1154457493.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.back_contast{
+    background-color:  rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sign_in_btn{
+    
+    padding: 0.5%;
+    border-radius: 50px;
+    color: white;
+    width: 10%;
+}
+.sign_in_btn:hover{
+    background-color: white;
+    color: fuchsia;
+}
+.nav_item{
+    color: white;
+    margin: 1%;
+    cursor: pointer;
+}
+.nav_item:hover{
+    color: fuchsia;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.wrap_nat_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    width: 40%;
+    
+}
+.logo{
+    color: white;
+}
+/***************************************Transparent background***********************************/
+.transparent_background{
+    margin-top: 5%;
+    /*border: 1px solid #3f3f4687;*/
+    width: 80%;
+    display: flex;
+    border-radius: 8px;
+    padding: 1%;
+    align-items: center;
+    flex-direction: column;
+}
+.inner_landing{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 4%;
+    
+}
+.text_landing1{
+    color: white;
+    border: 1px solid  red;
+    width: 100%;
+    
+}
+.inner_landing_text{
+    color: white;
+    width: 50%;
+    padding: 2%;
+    margin-top: 10%;
+}
+.ai_img{
+  
+   width: 30%;
+}
+.get_started_btn{
+    color: white;
+    
+    
+   /*border: 1px solid #3f3f4687;*/
+    color: #dddcde;
+   /* padding: 18px 65px;*/
+    width: fit-content;
+    border-radius: 8px;
+    border-bottom: 1px solid #dddcde;
+    border-radius: 0px;
+    font-size: smaller;
+}
+.get_started_btn:hover{
+   
+    background-color: transparent;
+    color: #e6e6ea87;
+}
+.text-sising{
+    font-size: 4em;
+    font-weight: 900;
+    font-family: mythirdFont;
+    letter-spacing: 7px;
+  
+}
+.btn_start_wrap{
+    width: 90%;
+    padding: 2%;
+  margin-top: -5%;
+}
+/**************************************************************************/
+.scroll_btn{
+    margin-top: 3%;
+    cursor: pointer;
+}
+.scroll_btn:hover{
+    margin-top: -5%;
+}
